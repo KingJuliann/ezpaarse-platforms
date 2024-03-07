@@ -5,13 +5,13 @@
       "description": "(KBART) Identifiant interne de l'éditeur",
       "description_en": "(KBART) Publisher's internal identifier",
       "comment": "croisé avec la PKB quand elle existe",
-      "comment_en": "matched against the PKB when it exists."
+      "comment_en": "matched with PKB when it exists."
     },{
       "code": "print_identifier",
       "description": "(KBART) Identifiant papier (ISSN, ISBN...)",
       "description_en": "(KBART) Paper ID (ISSN, ISBN...)",
       "comment": "croisé avec la PKB quand elle existe",
-      "comment_en": "matched against the PKB when it exists."
+      "comment_en": "matched with PKB when it exists."
     },{
       "code": "doi",
       "description": "Digital Object Identifier",
@@ -35,11 +35,11 @@
       "description": "(KBART) Identifiant électronique (eISSN, eISBN...)",
       "description_en": "(KBART) Electronic identifier (eISSN, eISBN...)",
       "comment": "croisé avec la PKB quand elle existe",
-      "comment_en": "crossed with the PKB when it exists."
+      "comment_en": "crossed with PKB when it exists."
     },{
       "code": "unitid",
       "description": "Identifiant arbitraire le plus précis possible",
-      "description_en": "Arbitrary identifier as precise as possible.",
+      "description_en": "Arbitrary identifier, as precise as possible.",
       "comment": "utilisé pour le dédoublonnage COUNTER",
       "comment_en": "used for COUNTER de-duplication."
     },{
@@ -54,7 +54,7 @@
     },{
       "code": "LATEX",
       "description": "Il s'agit d'un format largement utilisé pour la rédaction d'articles scientifiques (notamment en mathématiques, physique, informatique, etc.)",
-      "description_en": "LATEX It is a format widely used for writing scientific articles (especially in math, physics, computer science, etc.)"
+      "description_en": "LATEX It is a format widely used to write scientific articles (especially in maths, physics, computer science, etc.)"
     },{
       "code": "PDFPLUS",
       "description": "PDF avec navigation interactive, contenu multimedia, liens...",
@@ -103,7 +103,7 @@
     },{
       "code": "TEI",
       "comment": "The Text Encoding Initiative (TEI) est un consortium qui développe et maintient collectivement une norme pour la représentation des textes sous forme numérique",
-      "comment_en": "The Text Encoding Initiative (TEI) is a consortium which collectively develops and maintains a standard for the representation of texts in digital form"
+      "comment_en": "The Text Encoding Initiative (TEI) is a consortium which collectively develops and maintains a standard for text representation in digital form"
     },{
       "code": "MODS",
       "comment": "Metadata Object Description Schema (MODS) est un schéma pour un ensemble d'éléments bibliographiques qui peut être utilisé à diverses fins, et en particulier pour des applications de bibliothèque",
@@ -111,9 +111,9 @@
     },{
       "code": "DEEPDYVE",
       "description": "Consultation d'un document sur la plateforme Deepdyve",
-      "description_en": "Consultation of a document on the Deepdyve platform",
+      "description_en": "Consultation of a document on Deepdyve platform",
       "comment": "Permet de comptabiliser les accès refusés (url-denied-ecs)",
-      "comment_en": "Allows to count refused accesses (url-denied-ecs)"
+      "comment_en": "Allows you to count denied accesses (url-denied-ecs)"
     }
   ],
   "rtype": [
@@ -134,11 +134,11 @@
     },{
       "code": "METADATA_BUNDLE",
       "description": "package de métadonnées concernant plusieurs ressources",
-      "description_en": "package of several metadata relative to multiple resources"
+      "description_en": "package of several metadatas relative to multiple resources"
     },{
       "code": "ISTEXDL_BUNDLE",
       "description": "Téléchargement bundle de la plateforme istex",
-      "description_en": "Bundle download of istex platform"
+      "description_en": "Bundle download from istex platform"
     },
     {
       "code": "ABS",
@@ -161,13 +161,13 @@
       "description": "Code juridique",
       "description_en": "Legal Code",
       "comment": "Cas des bases de données juridiques",
-      "comment_en": "The case of legal databases"
+      "comment_en": "Case of legal databases"
     },{
       "code": "JURISPRUDENCE",
       "description": "Consultation d'une jurisprudence",
       "description_en": "Consultation of case law",
       "comment": "Cas des bases de données juridiques",
-      "comment_en": "The case of legal databases"
+      "comment_en": "Case of legal databases"
     },{
       "code": "PREVIEW",
       "description": "Premières lignes d'un article",
@@ -191,45 +191,45 @@
     },{
       "code": "OTHER",
       "description": "rtype non defini pour ISTEX",
-      "description_en": "rtype not defined for ISTEX",
+      "description_en": "undefined rtype for ISTEX",
       "comment": "fourre tout istex",
-      "comment_en": "all-istex stuffing"
+      "comment_en": "istex catch-all"
     },{
       "code": "FORMULES",
       "description": "Formule juridique",
       "description_en": "Legal formula",
       "comment": "Cas des bases de données juridiques",
-      "comment_en": "The case of legal databases"
+      "comment_en": "Case of legal databases"
     },{
       "code": "PHD_THESIS",
       "description": "Thèse de doctorat",
       "description_en": "PhD Thesis",
       "comment": "Cas des archives institutionnelles",
-      "comment_en": "The case of institutional archives"
+      "comment_en": "Case of institutional archives"
     },{
       "code": "MD_THESIS",
       "description": "Thèse d'exercice",
       "description_en": "Exercise thesis",
       "comment": "Cas des archives institutionnelles",
-      "comment_en": "The case of institutional archives"
+      "comment_en": "Case of institutional archives"
     },{
       "code": "MASTER_THESIS",
       "description": "Mémoire de Master",
       "description_en": "Master's thesis",
       "comment": "Cas des archives institutionnelles",
-      "comment_en": "The case of institutional archives"
+      "comment_en": "Case of institutional archives"
     },{
       "code": "MD_MEMOIRE",
       "description": "Mémoire médical",
-      "description_en": "Medical memory",
+      "description_en": "Medical dissertation",
       "comment": "Cas des archives institutionnelles",
-      "comment_en": "The case of institutional archives"
+      "comment_en": "Case of institutional archives"
     },{
       "code": "HABILITATION_THESIS",
       "description": "Thèse d'habilitation à diriger des recherches (HDR)",
       "description_en": "Habilitation to Conduct Research Thesis (HDR)",
       "comment": "Cas des archives institutionnelles",
-      "comment_en": "The case of institutional archives"
+      "comment_en": "Case of institutional archives"
     },{
       "code": "BIO",
       "description": "Biographie",
@@ -265,7 +265,7 @@
     },{
       "code": "REPORT",
       "comment": "cas des plateformes en éco-gestion (xerfi, pointrisk, chelem)",
-      "comment_en": "case of eco-management platforms (xerfi, pointrisk, chelem)"
+      "comment_en": "case of economics/management platforms (xerfi, pointrisk, chelem)"
     },{
       "code": "FIGURE",
       "comment": "cas de plateforme endocrine society",
@@ -307,7 +307,7 @@
       "description": "Outil de comparaison de données",
       "description_en": "Data comparison tool",
       "comment": "cas de plateforme Britannica, Financial Times, Kluwer arbitration",
-      "comment_en": "cas de plateforme Britannica, Financial Times, arbitrage Kluwer"
+      "comment_en": "Platform Britannica, Financial Times, Kluwer arbitration"
     },{
       "code": "REPORT",
       "comment": "cas de plateformes Columbia International Affairs Online, Financial Times, rapports en tout genre qui ne sont pas publiés sous la forme d'un article ou d'un working paper",
@@ -340,24 +340,24 @@
       "code": "SESSION",
       "description": "Connection",
       "comment": "cas de la plateforme Reaxys",
-      "comment_en": "case of Reaxys plateforme"
+      "comment_en": "case of Reaxys platform"
     },{
       "code": "LINK",
       "description": "Redirection d'un lien vers un article",
       "description_en": "Redirecting a link to an article",
       "comment": "cas de la plateforme Reaxys",
-      "comment_en": "case of Reaxys plateforme"
+      "comment_en": "case of Reaxys platform"
     },{
       "code": "ANALYSIS",
       "description": "analyse",
       "comment": "cas de la plateforme WOS",
-      "comment_en": "case of WOS plateforme"
+      "comment_en": "case of WOS platform"
       },{
       "code": "QUERY",
       "description": "requête",
       "description_en": "request",
       "comment": "cas de la plateforme ISTEX et PANIST",
-      "comment_en": "case of the ISTEX and PANIST platform"
+      "comment_en": "case of ISTEX and PANIST platforms"
     },{
       "code": "ISSUE",
       "description": "consultation d'une revue complète",
